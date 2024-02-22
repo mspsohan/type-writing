@@ -1,0 +1,91 @@
+.h-animate .text{
+   position: relative;
+   color: #00c9f3;
+   font-size: 30px;
+   font-weight: 600;
+
+}
+.h-animate .text.first-text{
+   color: #000;
+}
+.h-animate .text.sec-text{
+   position: absolute;
+   animation: animate 4s infinite;
+}
+@keyframes animate {
+   0%, 50%{
+      transform: translateX(12rem);
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+   background: #f5f6fa;
+}
+div{
+   border: 2px solid black ;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items:center;
+   position: relative;
+}
+h1{
+   color:#3498db;
+   font-size: 2rem;
+   font-weight: 600;
+}
+h1 span{
+   color :#e74c3c;;
+   position: relative;
+}
+h1 span::before{
+   content: "";
+   height: 30px;
+   width: 2px;
+   position: absolute;
+   top: 50%;
+   right: -8px;
+   background: #e74c3c;
+   transform: translateY(-50%);
+} */
